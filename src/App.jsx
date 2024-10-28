@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 import Chelsey from "./assets/Chelsey Dietrich.jpg";
 import Clementina from "./assets/Clementina DuBuque.jpg";
@@ -46,7 +45,7 @@ function App() {
     },
     {
       img: Dennis,
-      name: "Mrs. Dennis Schulist",
+      name: "Dennis Schulist",
       username: "Leopoldo_Corkery",
       email: "Karley_Dach@jasper.info",
     },
@@ -58,7 +57,7 @@ function App() {
     },
     {
       img: Nicholas,
-      name: "Nicholas Runolfsdottir V",
+      name: "Nicholas Rudolph",
       username: "Maxime_Nienow",
       email: "Sherwood@rosamond.me",
     },
@@ -70,7 +69,7 @@ function App() {
     },
     {
       img: Clementina,
-      name: "Clementina DuBuque",
+      name: "Tina DuBuque",
       username: "Moriah.Stanton",
       email: "Rey.Padberg@karina.biz",
     },
@@ -98,14 +97,17 @@ function App() {
   return (
     <>
       <div>
+        <h1>Users List</h1>
         <ul>
           {usersList.map((user, idx) => {
             return (
               <li key={idx}>
                 <img src={user.img} alt="userimage" />
-                <h2>{user.name}</h2>
-                <p>{user.username}</p>
-                <p>{user.email}</p>
+                <div>
+                  <h2>{user.name}</h2>
+                  <p className="username">{user.username}</p>
+                  <p className="email">{user.email}</p>
+                </div>
               </li>
             );
           })}

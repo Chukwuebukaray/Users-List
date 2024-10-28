@@ -2,8 +2,6 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-
-    color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
 }
@@ -11,14 +9,15 @@
 body {
     margin: 0;
     margin-inline: auto;
-    padding: 2rem;
+    padding: 0 2rem;
     text-align: center;
 }
 
 ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     gap: 15px;
+    padding: 0;
 }
 
 li {
@@ -26,7 +25,6 @@ li {
     border-radius: 15px;
     padding: 10px;
     list-style: none;
-    justify-items: center;
 }
 
 li img {
@@ -34,6 +32,17 @@ li img {
     height: 80px;
     border: 1px solid;
     border-radius: 100%;
+}
+
+li h2, li p{
+    margin: 8px;
+}
+
+.username{
+    color: #f2f2f2;
+}
+.email{
+    color: #999;
 }
 
 button {
@@ -44,6 +53,7 @@ button {
     font-weight: 500;
     font-family: inherit;
     background-color: #1a1a1a;
+    color: inherit;
     cursor: pointer;
     transition: border-color 0.25s;
 }
