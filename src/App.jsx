@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 
 import Chelsey from "./assets/Chelsey Dietrich.jpg";
 import Clementina from "./assets/Clementina DuBuque.jpg";
@@ -98,6 +97,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>Users List</h1>
         <ul>
           {usersList.map((user, idx) => {
             return (
