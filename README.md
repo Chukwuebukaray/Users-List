@@ -1,8 +1,45 @@
-# React + Vite
+# Users-List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description**
 
-Currently, two official plugins are available:
+A simple React application that displays a list of users and shuffles them on button click.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Technologies Used**
+
+1. React
+2. Vite
+
+Installation:
+
+1. Clone the repository:
+
+git clone [https://github.com/Chukwuebukaray/Users-List]
+
+2. Install dependencies:
+   Bash
+
+   cd educity
+   npm install
+
+**Usage**
+
+1. Start the development server:
+   Bash
+
+   npm run dev
+
+2. Access the website: Open your web browser and go to http://localhost:5173.
+
+**Contributing**
+
+We welcome contributions to Educity! If you're interested in contributing, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Push your changes to your fork.
+5. Submit a pull request.
+
+**License**
+
+This project is licensed under the MIT License.
