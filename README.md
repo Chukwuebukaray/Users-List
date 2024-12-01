@@ -4,10 +4,12 @@
 
 A simple React application that displays a list of users and shuffles them on button click.
 
+
 **Technologies Used**
 
 1. React
 2. Vite
+
 
 Installation:
 
@@ -21,6 +23,7 @@ Installation:
    cd users-list
    npm install
 
+
 **Usage**
 
 1. Start the development server:
@@ -28,7 +31,8 @@ Installation:
    ```bash
    npm run dev
 
-3. Access the website: Open your web browser and go to http://localhost:5173.
+2. Access the website: Open your web browser and go to http://localhost:5173.
+
 
 **Contributing**
 
@@ -39,6 +43,7 @@ We welcome contributions to Educity! If you're interested in contributing, pleas
 3. Make your changes.
 4. Push your changes to your fork.
 5. Submit a pull request.
+
 
 **License**
 
