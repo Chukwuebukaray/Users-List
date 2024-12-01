@@ -13,9 +13,10 @@ Installation:
 
 1. Clone the repository:
 
-git clone [https://github.com/Chukwuebukaray/Users-List]
+    git clone [https://github.com/Chukwuebukaray/Users-List]
 
 2. Install dependencies:
+
    Bash
 
    cd educity
@@ -24,11 +25,12 @@ git clone [https://github.com/Chukwuebukaray/Users-List]
 **Usage**
 
 1. Start the development server:
+
    Bash
 
    npm run dev
 
-2. Access the website: Open your web browser and go to http://localhost:5173.
+3. Access the website: Open your web browser and go to http://localhost:5173.
 
 **Contributing**
 
