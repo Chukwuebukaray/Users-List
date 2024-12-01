@@ -12,22 +12,20 @@ A simple React application that displays a list of users and shuffles them on bu
 Installation:
 
 1. Clone the repository:
-
-    git clone [https://github.com/Chukwuebukaray/Users-List]
+   ```bash
+   git clone [https://github.com/Chukwuebukaray/Users-List]
 
 2. Install dependencies:
 
-   Bash
-
-   cd educity
+   ```bash
+   cd users-list
    npm install
 
 **Usage**
 
 1. Start the development server:
 
-   Bash
-
+   ```bash
    npm run dev
 
 3. Access the website: Open your web browser and go to http://localhost:5173.
